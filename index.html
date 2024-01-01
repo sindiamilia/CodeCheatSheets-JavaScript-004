@@ -1,1 +1,7 @@
-<center><h1>Test
+<script>
+    // the charCodeAt() method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index
+    var sentence = 'The quick brown fox jumped over the lazy dog.';
+    var index = 4;
+    document.write('The character code ' + sentence.charCodeAt(index) + ' is equal to ' + sentence.charAt(index) + '.');
+    // expected output: "The character code 113 is equal to q."
+</script>
